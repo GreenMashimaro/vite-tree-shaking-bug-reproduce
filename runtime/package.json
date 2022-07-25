@@ -1,0 +1,21 @@
+{
+  "name": "runtime",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build:vite && npm run build:vite:ssr",
+    "build:vite": "vite build",
+    "build:vite:ssr": "vite build --ssr"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.1",
+    "vite-plugin-ssr": "^0.4.12"
+  },
+  "dependencies": {
+    "vue": "^3.2.37"
+  }
+}
