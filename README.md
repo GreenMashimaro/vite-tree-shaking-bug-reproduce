@@ -1,5 +1,9 @@
 # vite tree shaking bug reproduce
 
+# Online vscode view source code
+
+Press the keyboard `.`
+
 # Operation steps
 
 ```
@@ -18,6 +22,6 @@ When `serialize-javascript` is packaged, it can be searched.
 
 Build result is not tree shaking.
 
-In `./packages/utils/src/index.ts` file export function `testTreeShaking`
+In `./packages/utils/src/index.ts` file export function `testTreeShaking`.
 
-The testtreeshaking function is never import, but the result of build contains `serialize-javascript`
+The `testTreeShaking` function is never import, but the result of build contains `serialize-javascript`.
