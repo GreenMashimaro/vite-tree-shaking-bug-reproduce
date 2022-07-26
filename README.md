@@ -1,5 +1,9 @@
 # vite tree shaking bug reproduce
 
+# Issue link
+
+https://github.com/vitejs/vite/issues/9366
+
 # Online vscode view source code
 
 Press the keyboard `.`
