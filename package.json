@@ -16,5 +16,10 @@
   },
   "dependencies": {
     "typescript": "^4.7.4"
+  },
+  "pnpm": {
+    "patchedDependencies": {
+      "serialize-javascript@6.0.0": "patches/serialize-javascript@6.0.0.patch"
+    }
   }
 }

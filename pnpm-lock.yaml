@@ -1,5 +1,10 @@
 lockfileVersion: 5.4
 
+patchedDependencies:
+  serialize-javascript@6.0.0:
+    hash: rpxe3tqggb7sr72s7ilr2mcpqe
+    path: patches/serialize-javascript@6.0.0.patch
+
 importers:
 
   .:
@@ -19,7 +24,7 @@ importers:
       serialize-javascript: ^6.0.0
     devDependencies:
       '@types/serialize-javascript': 5.0.2
-      serialize-javascript: 6.0.0
+      serialize-javascript: 6.0.0_rpxe3tqggb7sr72s7ilr2mcpqe
 
   runtime:
     specifiers:
@@ -691,11 +696,12 @@ packages:
     resolution: {integrity: sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==}
     dev: true
 
-  /serialize-javascript/6.0.0:
+  /serialize-javascript/6.0.0_rpxe3tqggb7sr72s7ilr2mcpqe:
     resolution: {integrity: sha512-Qr3TosvguFt8ePWqsvRfrKyQXIiW+nGbYpy8XK24NQHE83caxWt+mIymTT19DGFbNWNLfEwsrkSmN64lVWB9ag==}
     dependencies:
       randombytes: 2.1.0
     dev: true
+    patched: true
 
   /source-map-js/1.0.2:
     resolution: {integrity: sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==}

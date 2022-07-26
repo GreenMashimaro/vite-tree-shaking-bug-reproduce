@@ -1,0 +1,13 @@
+diff --git a/index.js b/index.js
+index ab827422928b60d2fb53b327a68c1ae80dd46d7a..cbcd1f3248a0760249e37479d980b7ae23e18bca 100644
+--- a/index.js
++++ b/index.js
+@@ -10,7 +10,7 @@ var randomBytes = require('randombytes');
+ 
+ // Generate an internal UID to make the regexp pattern harder to guess.
+ var UID_LENGTH          = 16;
+-var UID                 = generateUID();
++var UID                 = /* #__PURE__ */generateUID();
+ var PLACE_HOLDER_REGEXP = new RegExp('(\\\\)?"@__(F|R|D|M|S|A|U|I|B|L)-' + UID + '-(\\d+)__@"', 'g');
+ 
+ var IS_NATIVE_CODE_REGEXP = /\{\s*\[native code\]\s*\}/g;
