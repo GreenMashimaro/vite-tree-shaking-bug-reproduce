@@ -25,3 +25,7 @@ Build result is not tree shaking.
 In `./packages/utils/src/index.ts` file export function `testTreeShaking`.
 
 The `testTreeShaking` function is never import, but the result of build contains `serialize-javascript`.
+
+# Solve the problem
+
+You can checkout to `fix` branch see last commit.
